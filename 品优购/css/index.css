@@ -1,0 +1,325 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+.main .focus {
+    position: relative;
+    float: left;
+    width: 721px;
+    height: 455px;
+}
+.main .focus .pre{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 20px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 0 15px 15px 0;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .2);
+    font-family: 'icomoon';
+}
+.main .focus .after{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 20px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 15px 0 0 15px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .2);
+    font-family: 'icomoon';
+}
+.main .focus .run {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -35px;
+    width: 70px;
+    height: 13px;
+    background: rgba(255, 255,255, .3);
+    border-radius: 7px;
+}
+.main .focus .run li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 3px;
+}
+.main .focus .run .selected {
+    background-color: orange;
+}
+.main .newsflash {
+    float: right;
+    width: 250px;
+    height: 100%;
+}
+.newsflash .news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+.newsflash .lifeservice {
+    height: 209px;
+    border-left: 1px solid #e4e4e4 ;
+    border-bottom: 1px solid #e4e4e4;
+}
+.newsflash .bargain {
+    margin-top: 5px;
+}
+.newsflash .news .hd {
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+.newsflash .news .hd h5 {
+    float: left;
+    font-size: 14px;
+}
+.newsflash .news .hd .more {
+    float: right;
+    font-size: 14px;
+}
+.newsflash .news .hd .more::after {
+    content: '\e920';
+    font-family: 'icomoon';
+    margin-left: 8px;
+}
+.newsflash .news .bd {
+    padding: 10px 0 6px 17px;
+}
+.newsflash .news .bd ul li {
+    margin: 4px 0;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.newsflash .lifeservice {
+    border-left: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+    overflow: hidden;
+}
+.newsflash .lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+.newsflash .lifeservice ul {
+    width: 252px;
+}
+.newsflash .lifeservice ul li .huafei {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    background: url(../images/素材/icons.png) no-repeat -15px -16px;
+    margin-top: 12px;
+}
+.newsflash .lifeservice ul li .huafeie,
+.newsflash .lifeservice ul li .jipiao,
+.newsflash .lifeservice ul li .dianyingpiao,
+.newsflash .lifeservice ul li .youxi,
+.newsflash .lifeservice ul li .caipiao,
+.newsflash .lifeservice ul li .jiayouka,
+.newsflash .lifeservice ul li .jiudian,
+.newsflash .lifeservice ul li .huochepiao,
+.newsflash .lifeservice ul li .zhongchou,
+.newsflash .lifeservice ul li .licai,
+.newsflash .lifeservice ul li .lipingka, 
+.newsflash .lifeservice ul li .baitiao {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+}
+.newsflash .lifeservice ul li .jipiao {
+    background: url(../images/素材/icons.png) no-repeat -79px -15px;
+}
+.newsflash .lifeservice ul .jian {
+    position: relative;
+}
+.newsflash .lifeservice ul .logo-jian{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.newsflash .lifeservice ul li .huafei {
+    background: url(../images/素材/icons.png) no-repeat -15px -16px;
+}
+.newsflash .lifeservice ul li .dianyingpiao {
+    background: url(../images/素材/icons.png) no-repeat -141px -16px;
+}
+.newsflash .lifeservice ul li .youxi {
+    background: url(../images/素材/icons.png) no-repeat -205px -16px;
+}
+.newsflash .lifeservice ul li .caipiao {
+    background: url(../images/素材/icons.png) no-repeat -17px -88px;
+}
+.newsflash .lifeservice ul li .jiayouka {
+    background: url(../images/素材/icons.png) no-repeat -80px -88px;
+}
+.newsflash .lifeservice ul li .jiudian {
+    background: url(../images/素材/icons.png) no-repeat -141px -88px;
+}
+.newsflash .lifeservice ul li .huochepiao {
+    background: url(../images/素材/icons.png) no-repeat -205px -88px;
+}
+.newsflash .lifeservice ul li .zhongchou {
+    background: url(../images/素材/icons.png) no-repeat -17px -159px;
+}
+.newsflash .lifeservice ul li .licai {
+    background: url(../images/素材/icons.png) no-repeat -77px -159px;
+}
+.newsflash .lifeservice ul li .lipingka {
+    background: url(../images/素材/icons.png) no-repeat -141px -159px;
+}
+.newsflash .lifeservice ul li .baitiao {
+    background: url(../images/素材/icons.png) no-repeat -205px -159px;
+}
+.recom {
+    height: 163px;
+    margin-top: 12px;
+    background-color: #ebebeb;
+}
+.recom .recom-hd {
+    float: left;
+    width: 206px;
+}
+.recom .recom-bd {
+    float: left;
+    width: 994px;
+}
+.recom .recom-bd ul li {
+    position: relative;
+    float: left;
+}
+.recom .recom-bd ul li img {
+    width: 247px;
+    height: 163px;
+}
+.recom .recom-bd ul li:nth-child(-n+3)::after {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    content: '';
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+.youlike {
+    height: 261px;
+}
+.youlike .youlike-fonts {
+    height: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.youlike .youlike-fonts .cai {
+    float:left;
+    font-size: 18px;
+}
+.youlike .youlike-fonts .huan {
+    float: right;
+}
+.youlike .youlike-fonts .huan::after {
+    content: '\ea2e';
+    font-family: 'icomoon';
+    margin-left: 9px;
+}
+.youlike-goods {
+    border: 1px solid #ededed;
+    height: 233px;
+}
+.youlike-goods ul li {
+    position: relative;
+    float: left;
+    width: 195px;
+    height: 233px;
+}
+.youlike-goods ul li:nth-child(-n+5)::after {
+    position: absolute;
+    bottom: 10px;
+    content: '';
+    width: 1px;
+    height: 62px;
+    background-color: #ededed;
+}
+.youlike-goods ul li img {
+    width: 195px;
+    height: 233px;
+}
+/* 家用电器模块 */
+.jiadian,
+.shouji,
+.diannao {
+    margin-top: 30px;
+}
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+.box_hd .table_list {
+    float: right;
+    line-height: 30px;
+}
+.box_hd .table_list ul li {
+    float: left;
+}
+.box_hd .table_list ul li a {
+    padding: 0 15px;
+}
+.box_bd {
+    height: 361px;
+}
+.table_list_items>div {
+    float: left;
+    height: 361px;
+}
+.col_210 {
+    width: 210px;
+    background-color: #f9f9f9;
+}
+.col_210 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    margin-right: 10px;
+}
+.col_210 ul {
+    padding-left: 12px;
+}
+.col_329 {
+    width: 329px;
+}
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+.col_219 {
+    width: 219px;
+}
+.bb {
+    /* 一般情况下，a如果包含有宽度的盒子，a需要转化为块级元素 */
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
